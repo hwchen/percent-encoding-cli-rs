@@ -1,0 +1,14 @@
+[package]
+authors = ["Walther Chen <walther.chen@gmail.com>"]
+name = "percent-encoding-cli"
+version = "0.1.0"
+
+[[bin]]
+bench = false
+name = "pec"
+path = "src/main.rs"
+
+[dependencies]
+clap = "2.25.0"
+error-chain = "0.10.0"
+percent-encoding = "1.0.0"
