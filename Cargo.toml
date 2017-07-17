@@ -11,4 +11,4 @@ path = "src/main.rs"
 [dependencies]
 clap = "2.25.0"
 error-chain = "0.10.0"
-percent-encoding = "1.0.0"
+url = "1.5.1"
